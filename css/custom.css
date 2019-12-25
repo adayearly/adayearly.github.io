@@ -53,7 +53,7 @@ p {
 /*** Navbar ***/
 
 .navbar{
-  min-height: 80px;
+  min-height: 100px;
 }
 
 .navbar-default {
@@ -71,19 +71,19 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #078b41;
-  padding: 8px 15px 15px 15px;
+  color: #292d78;
+  padding: 4px 10px 10px 10px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #078b41;
+  color: #292d78;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
-  color: #078b41;
-  padding: 8px 10px;
+  color: #292d78;
+  padding: 4px 5px;
 }
 
 .navbar-nav{
@@ -97,10 +97,9 @@ p {
 .navbar-default .nav > li > a {
   font-size: 20px;
   padding: 10px 11px;
-  border:1px solid #078b41;
   margin-right: 5px;
   border-radius: 4px;
-  background: #078b41;
+  background: #ffffff;
   font-weight: 500;
 }
 
@@ -110,22 +109,23 @@ p {
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #078b41;
+  color: #292d78;
 }
 
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #078b41;
+  color: #198f49;
 }
 
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #078b41 !important;
+  color: #292d78 !important;
   background-color: transparent;
 }
 
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
+  color: #198f49;
   background-color: transparent;
 }
 
@@ -151,11 +151,11 @@ header {
 }
 
 header.home_loan{
-  background-image: linear-gradient(rgba(41, 45, 120, 1), rgba(41, 45, 120, 1));
-  background-image: -webkit-linear-gradient(rgba(41, 45, 120, 1), rgba(41, 45, 120, 1))); 
-  background-image:    -moz-linear-gradient(rgba(41, 45, 120, 1), rgba(41, 45, 120, 1)); 
-  background-image:     -ms-linear-gradient(rgba(41, 45, 120, 1), rgba(41, 45, 120, 1)); 
-  background-image:      -o-linear-gradient(rgba(41, 45, 120, 1), rgba(41, 45, 120, 1));
+  background-image: linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)), url("../img/header.png");
+  background-image: -webkit-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)), url("../img/header.png"); 
+  background-image:    -moz-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)), url("../img/header.png"); 
+  background-image:     -ms-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)), url("../img/header.png"); 
+  background-image:      -o-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)), url("../img/header.png");
 }
 
 header .header-content {
@@ -715,8 +715,8 @@ section.social_contact h2 i {
 
 .subscribe-panel .btn.btn-info.btn-lg{
   background: transparent;
-  border: 3px solid #098b42;
-  color: #098b42;
+  border: 3px solid#292d78;
+  color: #292d78;
   border-radius: 4px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -726,17 +726,17 @@ section.social_contact h2 i {
 }
 
 .subscribe-panel .btn.btn-info.btn-lg:hover{
-  background: #098b42;
+  background:#292d78;
   color: #fff;
 }
 
 .subscribe-panel i{
-  color: #098b42;
+  color: #292d78;
 }
 
 .subscribe-panel > p {
   font-weight: 600;
-  color: #777;
+  color: #292d78;
 }
 
 section.social_contact ul.list-social {
@@ -747,7 +747,7 @@ section.social_contact ul.list-social {
 
 section.social_contact ul.list-social li a {
   border-radius: 100%;
-  color: white;
+  color: #fff;
   display: block;
   font-size: 28px;
   height: 57px;
@@ -1209,7 +1209,11 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
 /*** Section Contact Us ***/
 
 #contact{
-  background: #098b42;
+  background-image: linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85));
+  background-image: -webkit-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:    -moz-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:     -ms-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:      -o-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85));
 }
 
 #contact h2{
@@ -1220,7 +1224,7 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
 }
 
 #contact form .form-control{
-  background: #098b42;
+  background: #fff;
   border:2px solid #fff;
   height: 45px;
   color: #fff;
@@ -1236,7 +1240,7 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
 }
 
 #contact form span.input-group-addon{
-  background: #098b42;
+  background: transparent;
   color: #fff;
   padding: 6px 15px;
   border:2px solid #fff;
@@ -1255,8 +1259,8 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
 }
 
 #contact form .btn:hover{
-  background:#FDCC52;
-  border-color: #FDCC52;
+  background:#292d78;
+  border-color: #292d78;
 }
 
 address{
@@ -1282,11 +1286,11 @@ address p{
 
 
 footer {
-  background-color: #07498C;
+  background-color: #389a15;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  border-top: 1px solid #2C5F8F;
+  border-top: 1px solid #389a15;
 }
 
 footer p {
@@ -1395,8 +1399,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #292d78;
+  border-color:#292d78;
 }
 
 .btn {
@@ -1412,7 +1416,7 @@ footer ul li a.active {
 }
 
 .btn-primary.focus, .btn-primary:focus{
-  border-color: #286090;
+  border-color: #292d78;
 }
 
 ::-moz-selection {
