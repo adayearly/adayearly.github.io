@@ -10,12 +10,12 @@
 	sendMail($sender_name , $sender_email, $body);
 	
 	function sendMail($sender, $sender_mail, $body) {
-		$to = 'receiver@domain.com'; // Set Receiver Email Here
-		$myemail = 'sender@domain.com'; // Set Sender Email Here
-		$subject = "New EasyLoan Client"; // Set Subject Here
+		$to = 'info@adayearly.com'; // Set Receiver Email Here
+		$myemail = 'snkachchakaduge@gmail.com'; // Set Sender Email Here
+		$subject = "Registration"; // Set Subject Here
 		$headers = "MIME-Version: 1.0\r\n";
 		$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";            
-		$headers .= "From: EasyLoan <sender@domain.com>\r\n"; // Set Header Here
+		$headers .= "From: aDayEarly <snkachchakaduge@gmail.com>\r\n"; // Set Header Here
 		
 		$message = $body;
 		
