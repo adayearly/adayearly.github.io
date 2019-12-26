@@ -193,7 +193,31 @@
             </div>
         </div>
     </section>
-    <!-- End Of Section Contact -->
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAH45IuoFb56n2XuQ4sm8Q8hqpavsQVD_Y",
+        authDomain: "testmailer-c511c.firebaseapp.com",
+        databaseURL: "https://testmailer-c511c.firebaseio.com",
+        projectId: "testmailer-c511c",
+        storageBucket: "testmailer-c511c.appspot.com",
+        messagingSenderId: "933306144419",
+        appId: "1:933306144419:web:67fcd9dfce94c6dfc69116",
+        measurementId: "G-G5RRNX862J"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+        <!-- End Of Section Contact -->
 
     <!-- Footer -->  
     <footer>
