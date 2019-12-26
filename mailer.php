@@ -5,13 +5,13 @@
 	$input_zip_code = $_POST['InputZipCode'];
 	$mail_body = $_POST['InputMessage'];
 	
-	$body = $sender_name." sent a new message for you<br><br> Name: ".$sender_name."<br>Email: ".$sender_email."<br>Phone: ".$phone."<br>Zip Code: ".$input_zip_code."<br>Message: ".$mail_body;
+	$body = $sender_name."sent a new message for you<br><br> Name: ".$sender_name."<br>Email: ".$sender_email."<br>Phone: ".$phone."<br>Zip Code: ".$input_zip_code."<br>Message: ".$mail_body;
 	
 	sendMail($sender_name , $sender_email, $body);
 	
 	function sendMail($sender, $sender_mail, $body) {
 		$to = 'info@adayearly.com'; // Set Receiver Email Here
-		$myemail = 'snkachchakaduge@gmail.com'; // Set Sender Email Here
+		$myemail = 'snkachchakaduge@ucdavis.com'; // Set Sender Email Here
 		$subject = "Registration"; // Set Subject Here
 		$headers = "MIME-Version: 1.0\r\n";
 		$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";            
