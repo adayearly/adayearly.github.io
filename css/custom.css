@@ -8,6 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
+
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #292d78;
 }
 
 hr {
@@ -434,7 +435,7 @@ header .form-container {
 /*** Section About And Counter ***/
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section.h {
   padding: 0px 0;
@@ -502,7 +503,11 @@ p.counter_icon i{
 /*** Section Features ***/
 
 section.features{
-  background: #ffffff;
+  background-image: linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85));
+  background-image: -webkit-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:    -moz-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:     -ms-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85)); 
+  background-image:      -o-linear-gradient(rgba(21, 84, 154, 0.85),rgba(56, 154, 21, 0.85));
 }
 
 section.features .section-heading {
@@ -510,8 +515,8 @@ section.features .section-heading {
 }
 
 section.features .section-heading h2 {
-  color: #292d78;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 800;
   margin-top: 0;
 }
 
@@ -540,7 +545,7 @@ section.features .feature-item {
 }
 
 section.features .feature-item h3 {
-  color: #292d78;
+  color: #fff;
   font-size: 26px;
   font-weight: 500;
   margin-top: 30px;
@@ -1022,6 +1027,8 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
 
 /*** Section FAQ ***/
 
+
+
 .faq_title{
   color: #292d78;
   font-size: 26px;
@@ -1043,19 +1050,19 @@ section.social_contact ul.list-social li.social-google-plus a:hover {
   display: block;
   text-decoration: none;
   font-weight:500;
-  color: #454444;
+  color: #292d78;
 }
 
 #accordion .panel-default > .panel-heading a:hover{
   text-decoration: none;
-  color: #E7BF18;
+  color: #098b42;
 }
 
 .panel-heading [data-toggle="collapse"]:after {
   font-family: 'fontawesome';
   content: "\f054"; /* "play" icon */
   float: right;
-  color: #FDC949;
+  color: #292d78;
   font-size: 18px;
   line-height: 22px;
   /* rotate "play" icon from > (right arrow) to down arrow */
